@@ -32,6 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  flex-wrap: wrap;
 }
 
 .header::before {
@@ -264,4 +265,53 @@ body {
   }
 }
 
-/* _______________________________read more_________________________________________________ */
+/* _______________________________ page ________________________________________________ */
+
+.main {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  font-style: normal;
+  margin-bottom: 25px;
+}
+
+.main-s {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+  margin-bottom: -10px;
+}
+
+.heading-page {
+  width: 90%;
+  margin: 180px auto;
+  right: 50px;
+  display: flex;
+}
+
+.image-post {
+  width: 90vh;
+  /* margin-top: -5%; */
+}
+/* ======================== button ================ */
+.button-start a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #66666628;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  transition: 0.3 ease;
+  width: 20vh;
+  justify-content: space-between;
+  flex-grow: 2;
+  justify-content: center;
+}
+
+.button-start a:hover {
+  background-color: #33333357;
+}
