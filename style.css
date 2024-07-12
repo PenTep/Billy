@@ -26,8 +26,6 @@ body {
   left: 0;
   width: 100%;
   padding: 1.3rem 10%;
-  /* background: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(50px); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -290,19 +288,6 @@ body {
   transform: translateY(-8px);
 }
 
-/* _______________________________ page ________________________________________________ */
-
-/* @media screen and (max-width: 768px) {
-  .heading-page .page {
-    padding: 20px;
-    font-size: 16px;
-  }
-
-  .image-post {
-    size: 5px;
-  }
-} */
-
 .main {
   font-size: 40px;
   font-family: "Poppins", sans-serif;
@@ -337,40 +322,6 @@ body {
 }
 
 /* ============ icon ================ */
-/* .share {
-  position: absolute;
-  bottom: 3rem;
-  left: 5%;
-  display: flex;
-  align-items: center;
-}
-
-.share p {
-  font-size: 17px;
-  color: #333;
-  margin-right: 25px;
-}
-
-.social i {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 45px;
-  width: 45px;
-  background-color: #66666628;
-  font-size: 20px;
-  text-decoration: none;
-  border-radius: 30px;
-  box-shadow: 0px 20px 40px #00000070;
-  margin: 0 8px;
-  transition: all 0.6s ease-in-out;
-  color: white;
-}
-
-.social i:hover {
-  transform: translateY(-8px);
-} */
-/* ============================ */
 @media (max-width: 1370px) {
   .header {
     padding: 15px 4%;
@@ -393,9 +344,6 @@ body {
 }
 
 @media (max-width: 950px) {
-  /* .share {
-    display: none;
-  } */
   .section {
     padding: 70px 4%;
   }
@@ -484,7 +432,7 @@ body {
   transform: translateY(-5px);
 }
 
-/* <!-- ===================Card hover ===================================== --> */
+/* <!-- ===========Card hover ================== --> */
 * {
   box-sizing: border-box;
 }
@@ -509,9 +457,6 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* box-shadow: 0px 20px 40px #00000070;
-  transition: all 0.6s ease-in-out;
-  border-radius: 10px; */
 }
 
 .card {
@@ -545,9 +490,7 @@ body {
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 550;
-  /* justify-content: space-around; */
   margin: 15px;
-  /* padding: 5px; */
 }
 
 .container .s-word {
@@ -556,7 +499,6 @@ body {
   line-height: 1.4;
   margin-bottom: 10px;
   margin: 20px;
-  /* padding: 5px; */
 }
 
 .container .read-card {
@@ -570,28 +512,9 @@ body {
   margin-top: 15px;
   transition: 0.3s ease;
   margin: 20px;
-  /* box-shadow: 0px 20px 40px #00000070; */
 }
 
 /* =================== images =============== */
-
-/* .conta {
-  width: 80%;
-  margin: 0 auto;
-  padding: 80px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.box {
-  width: 150px;
-  height: 150px;
-  background-color: #333;
-  margin: 0 14px;
-} */
-/* ============= example ============== */
-
 #my-exp {
   display: flex;
   justify-content: center;
@@ -600,7 +523,6 @@ body {
   font-style: normal;
   font-size: 38px;
   margin-bottom: -20px;
-  /* text-shadow: 0px 10px 18px #00000070; */
 }
 
 .conta {
@@ -612,7 +534,6 @@ body {
   box-shadow: 0px 20px 40px #00000070;
   transition: all 0.6s ease-in-out;
   border-radius: 10px;
-  /* background-image: url("image"); */
 }
 
 .conta:hover {
@@ -621,10 +542,6 @@ body {
 }
 
 .images {
-  /* width: 90%;
-  margin: 80px auto;
-  padding: 0 80px;
-  align-items: center; */
   width: 90%;
   margin: 80px auto;
   border-radius: 15px;
@@ -672,18 +589,9 @@ body {
   backdrop-filter: blur(5px);
 }
 
-/* .image-overlay > * {
-  transform: translateY(20px);
-  transition: transform 0.25s;
-} */
-
 .image-overlay:hover {
   opacity: 1;
 }
-
-/* .image-overlay:hover > * {
-  transform: translateY(0);
-} */
 
 .image-title {
   font-family: "Poppins", sans-serif;
